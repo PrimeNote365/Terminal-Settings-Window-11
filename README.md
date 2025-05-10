@@ -44,17 +44,14 @@ New-Item -Path $PROFILE -Type File -Force
 
 ### 5.1. Ingresar al siguiente link:
 https://ohmyposh.dev/docs/installation/fonts
+![Paso 5](Terminal-window/font.png)
 ### 5.1. Ingresar al siguiente link:
 https://www.nerdfonts.com/
+![Paso 5](Terminal-window/font-2.png)
 ### 5.1. Ingresar al siguiente link (ingresar a este link y busca el font):
 https://www.nerdfonts.com/font-downloads
 
-![Paso 5](Terminal-window/font.png)
-
-![Paso 5](Terminal-window/font-2.png)
-
 ### 5.2. Descargar esta fuente, descomprimir e instalar todo:
-
 ![Paso 5](Terminal-window/font-hack-nerd-font.png)
 
 
