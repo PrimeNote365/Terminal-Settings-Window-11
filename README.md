@@ -93,18 +93,17 @@ notepad $PROFILE
 ### 7.4. Ingresar al siguiente link:
 https://ohmyposh.dev/docs/installation/customize
 
+### 7.5. Ingresar al siguiente link; Ahora agregaremos esto al $PERFILE:
 ![Paso 7](Terminal-window/perfil-3.png)
-
-### 7.5. Ingresar al siguiente link:Ahora agregaremos esto al $PERFILE:
 ```markdown
 oh-my-posh init pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
 ```
 
-### 7.6. Tendremos esto y dejarlo ahí, que posteriormente agregaremos algo:
+### 7.6. Una vez pegado, lo dejamos ahí que lo cambiaremos con el TEMA nuevo:
 ![Paso 7](Terminal-window/perfil-4.png)
 
 
-### 7.7. Ahora selecionaremos el tema (simplemente copias el nombre y lo pegas):
+### 7.7. Ahora selecionaremos el TEMA, por ejemplo "agnoster" (simplemente copias el nombre y lo pegas):
 jandedobbeleer.omp.json -> agnoster.omp.json
 ![Paso 7](Terminal-window/perfil-5.png)
 
