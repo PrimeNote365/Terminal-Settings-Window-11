@@ -17,9 +17,10 @@
 
 ## 3. Instalar "Oh my Posh"
 
-Ingresar al siguiente link:
+### 3.1. Ingresar al siguiente link:
 https://ohmyposh.dev/docs/installation/windows
 
+### 3.2. Copiamos el siguiente codigo:
 ![Paso 3](Terminal-window/oh-my-posh-instalar.png)
 
 ```powershell
@@ -28,8 +29,10 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 ## 4. Crear un perfil
 
-Ingresar al siguiente link:
+### 4.1. Ingresar al siguiente link:
 https://ohmyposh.dev/docs/installation/prompt
+
+### 4.2. Copiamos el siguiente codigo:
 
 ![Paso 4](Terminal-window/crear-perfil.png)
 
@@ -39,18 +42,18 @@ New-Item -Path $PROFILE -Type File -Force
 
 ## 5. Instalar "Hack Nerd Font"
 
-Ingresar al siguiente link:
+### 5.1. Ingresar al siguiente link:
 https://ohmyposh.dev/docs/installation/fonts
-Ingresar al siguiente link:
+### 5.1. Ingresar al siguiente link:
 https://www.nerdfonts.com/
-Ingresar al siguiente link (ingresar a este link y busca el font):
+### 5.1. Ingresar al siguiente link (ingresar a este link y busca el font):
 https://www.nerdfonts.com/font-downloads
 
 ![Paso 5](Terminal-window/font.png)
 
 ![Paso 5](Terminal-window/font-2.png)
 
-### 5.1. Descargar esta fuente, descomprimir e instalar todo:
+### 5.2. Descargar esta fuente, descomprimir e instalar todo:
 
 ![Paso 5](Terminal-window/font-hack-nerd-font.png)
 
@@ -76,35 +79,35 @@ https://www.nerdfonts.com/font-downloads
 
 ## 7. Instalar el Tema en el archivo "$PROFILE"
 
-Ingresar al siguiente link:
+### 7.1. Ingresar al siguiente link:
 https://ohmyposh.dev/docs/installation/prompt
 
+### 7.2. Ahora ejecuta este comando en tu terminal:
 ![Paso 7](Terminal-window/perfil-1.png)
 
-Ahora ejecuta este comando en tu terminal:
 ```powershell
 notepad $PROFILE
 ```
 
-Tendremos esto y dejarlo ahí, que posteriormente agregaremos algo:
+### 7.3. Tendremos esto y dejarlo ahí, que posteriormente agregaremos algo:
 ![Paso 7](Terminal-window/perfil-2.png)
 
 
-Ingresar al siguiente link:
+### 7.4. Ingresar al siguiente link:
 https://ohmyposh.dev/docs/installation/customize
 
 ![Paso 7](Terminal-window/perfil-3.png)
 
-Ahora agregaremos esto al $PERFILE:
+### 7.5. Ingresar al siguiente link:Ahora agregaremos esto al $PERFILE:
 ```markdown
 oh-my-posh init pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
 ```
 
-Tendremos esto y dejarlo ahí, que posteriormente agregaremos algo:
+### 7.6. Tendremos esto y dejarlo ahí, que posteriormente agregaremos algo:
 ![Paso 7](Terminal-window/perfil-4.png)
 
 
-Ahora selecionaremos el tema (simplemente copias el nombre y lo pegas):
+### 7.7. Ahora selecionaremos el tema (simplemente copias el nombre y lo pegas):
 jandedobbeleer.omp.json -> agnoster.omp.json
 ![Paso 7](Terminal-window/perfil-5.png)
 
@@ -112,16 +115,16 @@ jandedobbeleer.omp.json -> agnoster.omp.json
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/agnoster.omp.json" | Invoke-Expression
 ```
 
-Pegamos en nuestro $PERFILE:
+### 7.8. Pegamos en nuestro $PERFILE:
 ![Paso 7](Terminal-window/perfil-6.png)
 
 
 ## 8. Instalar los ICONOS (Personalización de archivos)
 
-Ingresar al siguiente link:
+### 8.1. Ingresar al siguiente link:
 https://github.com/devblackops/Terminal-Icons
 
-Instalamos el siguiente modulo:
+### 8.2. Instalamos el siguiente modulo:
 ![Paso 8](Terminal-window/iconos.png)
 
 ```powershell
@@ -129,30 +132,26 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 
 
-Instalamos el siguiente modulo:
+### 8.3. Importamos el siguiente codigo para los iconos:
 ![Paso 8](Terminal-window/iconos-2.png)
 
-Copiamos lo siguiente y pegamos en $PERFILE:
 ```markdown
 Import-Module -Name Terminal-Icons
 ```
 
-Pegamos:
+### 8.4. Pegamos en $PERFILE:
 ![Paso 8](Terminal-window/iconos-3.png)
 
 
 ## 9. Configurar en VSCODE
 
-Presionamos CTRL + P
-
-ingresamos a:
+### 9.1. Ingresamos a VSCODE y Presionamos CTRL + P
 ```markdown
 > Preferences: Open User Settings
 ```
 ![Paso 9](Terminal-window/vscode-1.png)
 
-Agregamos la fuente:
-
+### 9.2. Agregamos la fuente:
 
 ```markdown
 "terminal.integrated.fontFamily": "Hack Nerd Font"
@@ -162,7 +161,7 @@ Agregamos la fuente:
 
 ## 10. Autocompletado
 
-Ingresa a tu terminal POWERSHELL y presiona F2 para activar y desactivar la lista de comandos que usaste antes.
+Ingrese al tu terminal y presiona F2 para activar o desactivar autocompletado.
 
 
 
