@@ -20,7 +20,7 @@
 Ingresar al siguiente link:
 https://ohmyposh.dev/docs/installation/windows
 
-![Paso 3](Terminal-window/oh-my-posh-instalart.png)
+![Paso 3](Terminal-window/oh-my-posh-instalar.png)
 
 ```powershell
 winget install JanDeDobbeleer.OhMyPosh -s winget
@@ -59,7 +59,7 @@ https://www.nerdfonts.com/font-downloads
 
 ### 6.1. Primero ingresa a SETTINGS de la terminal de POWERSHELL -> Open JSON file (selecciona vscode si está)
 
-![Paso 6](Terminal-window/font-hack-nerd-font.png)
+![Paso 6](Terminal-window/open-JSON-file-terminal.png)
 
 ### 6.2. Configurar en vscode
 
