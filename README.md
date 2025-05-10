@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/bf893514-20c8-42c5-93cd-ba52104a13b6)![image](https://github.com/user-attachments/assets/f0114595-2d1e-49c4-bb94-8f1d7015e077)![image](https://github.com/user-attachments/assets/64028fb0-c1fb-4d1e-a9fc-143383213de2)![image](https://github.com/user-attachments/assets/cee0ba9d-f78f-4a8f-a335-ce871d51296f)![image](https://github.com/user-attachments/assets/4316cb8b-9ed3-4cc8-b280-2d5f6c50dba8)![image](https://github.com/user-attachments/assets/6b0fa046-ed4f-4cad-841c-5db49ddfa5c1)![image](https://github.com/user-attachments/assets/a55fc0e7-7a5e-491e-baab-83987b931e99)![image](https://github.com/user-attachments/assets/2859b0a4-80d6-4e5d-a9e9-7eeb910c5d51)![image](https://github.com/user-attachments/assets/5f2ff262-188b-44dd-a920-ac8f09890770)![image](https://github.com/user-attachments/assets/350c38ac-0958-4256-9202-c214539fda19)![image](https://github.com/user-attachments/assets/1ccb7818-f298-4c3c-94ea-5d80fcd3b4b9)![image](https://github.com/user-attachments/assets/d17d40de-4040-4c37-968c-8bead3e2bd60)![image](https://github.com/user-attachments/assets/11248950-9ae9-4d95-93b5-99d38566512c)# Terminal-settings Windows
-
+# Configurar TERMINAL - WINDOWS 11
+# Guía paso a paso para personalizar PowerShell con temas, íconos y fuente personalizada.
 
 ## 1. Descargar "PowerShell" de la Microsoft Store
 
