@@ -1,5 +1,5 @@
 # Configurar TERMINAL - WINDOWS 11
-# Guía paso a paso para personalizar PowerShell con temas, íconos y fuente personalizada.
+# Guía paso a paso para personalizar PowerShell con temas, íconos de archivos y fuente personalizada.
 
 ## 1. Descargar "PowerShell" de la Microsoft Store
 
