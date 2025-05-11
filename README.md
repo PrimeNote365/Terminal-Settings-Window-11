@@ -108,7 +108,7 @@ https://ohmyposh.dev/docs/installation/customize
 ### 7.5. Ingresar al siguiente link; Ahora agregaremos esto al $PERFILE:
 ![Paso 7](Terminal-window/perfil-3.png)
 ```markdown
-oh-my-posh init pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/jandedobbeleer.omp.json" | Invoke-Expression
 ```
 
 ### 7.6. Una vez pegado, lo dejamos ahí que lo cambiaremos con el TEMA nuevo:
