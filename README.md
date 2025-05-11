@@ -116,6 +116,7 @@ oh-my-posh init pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
 
 
 ### 7.7. Ahora selecionaremos el TEMA, por ejemplo "agnoster" (simplemente copias el nombre y lo pegas):
+link: https://ohmyposh.dev/docs/themes
 jandedobbeleer.omp.json -> agnoster.omp.json
 ![Paso 7](Terminal-window/perfil-5.png)
 
