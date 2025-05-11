@@ -73,6 +73,18 @@ https://www.nerdfonts.com/font-downloads
             "fontFace": "Hack Nerd Font"
         },
 ```
+```markdown
+        "defaults": 
+        {
+            "colorScheme": "One Half Dark",
+            "font": 
+            {
+                "face": "Hack Nerd Font",
+                "size": 14
+            }
+        },
+```
+
 
 ## 7. Instalar el Tema en el archivo "$PROFILE"
 
